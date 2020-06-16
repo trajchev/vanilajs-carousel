@@ -1,0 +1,16 @@
+// Import the separate scss files into this main scss file
+
+// Helper styles
+@import "utils/variables";
+@import "utils/mixins";
+
+// Base styles
+@import "base/base";
+
+// Main Sections Header and Footer
+@import "layout/header";
+@import "layout/footer";
+
+// Components
+@import "components/page";
+@import "components/carousel";
